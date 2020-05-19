@@ -1,0 +1,26 @@
+.homePage__wrapper {
+    &_all-blogs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    &_view-header {
+        background-color: aliceblue;
+        div {
+            display: inline-block;
+            button {
+                color: black
+            }
+            button:focus {
+                outline: none;
+            }
+        }
+        div:first-child {
+            button {
+                border-right: 1px solid black;
+                border-radius: 0px;
+            }
+        }
+    }
+}
